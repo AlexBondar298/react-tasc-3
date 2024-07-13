@@ -1,0 +1,35 @@
+.pagination {
+  max-width: 371px;
+}
+.pagination__inner {
+  display: flex;
+  list-style: none;
+  gap: 0 15px;
+
+  li {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background: #fff;
+    width: 36px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1;
+        letter-spacing: -0.01em;
+        text-decoration: none;
+    }
+    &:hover {
+        transition: all 0.4s ease;
+        border: 1px solid black;
+        transform: translateY(-2px);
+      a {
+        color: blue;
+      }
+    }
+  }
+}
