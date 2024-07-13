@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Form from "../../formAuthorization/Form";
+import Form from "../../FormAuthorization/Form";
 
-import { useDispatch} from "react-redux";
+import { useDispatch } from "react-redux";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 import { addUser } from "../../../redux/slices/user/sliceUser";

@@ -24,7 +24,7 @@ export const userSlice = createSlice({
       state.id = action.payload.id;
     },
     removeUser: (state, action) => {
-      state.email = null;
+      state.email = null;           
       state.token = null;
       state.id = null;
     },
